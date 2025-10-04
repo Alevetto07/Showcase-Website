@@ -1,0 +1,14 @@
+/* Additional styles for the App component */
+.app-container {
+  cursor: grab;
+}
+
+.app-container:active {
+  cursor: grabbing;
+}
+
+/* Ensure canvas takes full screen */
+canvas {
+  display: block;
+  outline: none;
+}
